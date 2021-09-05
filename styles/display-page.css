@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+
+.boxes {
+    align-items: center;
+    justify-content: center;
+}
+
+.top-row {
+    margin-top: 150px;
+    width: 800px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.bottom-row {
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.top {
+    width: 50%;
+}
+
+.bottom {
+    width: 33.3333%;
+}
+
+.left {
+    background-color: darkgreen;
+}
+
+.right {
+    background-color: blue;
+}
+
+.first {
+    background-color: gray;
+}
+
+.second {
+    background-color: black;
+}
+
+.third {
+    background-color: sandybrown;
+}
